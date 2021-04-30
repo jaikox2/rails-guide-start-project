@@ -22,7 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * Rails command line
- - rails new "project name"
- - rails server
- - rails routes
- - rails g controller "controller name"
+ - rails new "project name"                       #new project
+ - rails server                                   #run server
+ - rails routes                                   #list all routes
+ - rails g controller "controller name"           #generate controller
+ - rails g model Article title:string body:text   #generate model
+ - rails db:migrate                               #migrate db
+
+
+ * Rails console
+ - article = Article.new(title: "Hello Rails", body: "I am on Rails!")
+ - article.save
+ - article
+ - Article.find(1)
+ - Article.all
