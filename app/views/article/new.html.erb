@@ -1,0 +1,17 @@
+<h1>New Article</h1>
+
+<%= form_with url: article_index_path, method: :post, model: @article do |form| %>
+  <div>
+    <%= form.label :หัวข้อ %><br>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :เนื้อความ %><br>
+    <%= form.text_area :body %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
