@@ -42,3 +42,7 @@ Things you may want to cover:
 
  * Rails Associating Models
  - rails generate model Comment commenter:string body:text article:references
+
+ * Rails add more column in exist table
+ - rails generate migration AddStatusToArticles status:string
+ - rails generate migration AddStatusToComments status:string
