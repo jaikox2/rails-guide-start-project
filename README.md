@@ -37,3 +37,4 @@ Things you may want to cover:
  - Article.find(params[:id])
  - Article.all
  - @article.update(article_params)
+ - @article = Article.find(params[:id]) - @article.destroy
