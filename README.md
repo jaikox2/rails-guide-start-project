@@ -31,6 +31,7 @@ Things you may want to cover:
 
 
  * Rails console
+ - rails console
  - article = Article.new(title: "Hello Rails", body: "I am on Rails!")
  - article.save
  - article

@@ -4,7 +4,6 @@
 
 <ul>
   <% @articles.each do |article| %>
-    <% unless article.archived? %>
       <li>
       <%= link_to article.title, article %>
       <%# <a href="<%= article_path article %>
@@ -12,7 +11,6 @@
         <%# </a> %>
         <%# <%= article.body %>
       </li>
-    <% end %>
   <% end %>
 </ul>
 
