@@ -34,5 +34,6 @@ Things you may want to cover:
  - article = Article.new(title: "Hello Rails", body: "I am on Rails!")
  - article.save
  - article
- - Article.find(1)
+ - Article.find(params[:id])
  - Article.all
+ - @article.update(article_params)
