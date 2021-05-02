@@ -38,3 +38,7 @@ Things you may want to cover:
  - Article.all
  - @article.update(article_params)
  - @article = Article.find(params[:id]) - @article.destroy
+
+
+ * Rails Associating Models
+ - rails generate model Comment commenter:string body:text article:references
